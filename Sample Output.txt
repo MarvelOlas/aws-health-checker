@@ -1,0 +1,40 @@
+==================================================
+🔍 AWS HEALTH CHECKER
+==================================================
+📅 Report Time: 2025-01-15 14:30:00
+🌍 Region: eu-west-1
+
+==================================================
+EC2 INSTANCE STATUS
+==================================================
+✅ WebServer (i-0123456789abcdef0)
+   Type: t3.micro, State: running
+🛑 DevServer (i-0987654321fedcba0)
+   Type: t2.small, State: stopped
+
+==================================================
+CLOUDWATCH ALARM STATUS
+==================================================
+✅ CPU-High-WebServer
+   State: OK, Metric: CPUUtilization
+🚨 Memory-Critical-Database
+   State: ALARM, Metric: MemoryUtilization
+
+==================================================
+SUMMARY
+==================================================
+📊 EC2 Instances:
+   Total: 2
+   Running: 1
+   Stopped: 1
+
+📊 CloudWatch Alarms:
+   Total: 2
+   OK: 1
+   In Alarm: 1
+
+==================================================
+⚠️  ATTENTION: There are active alarms that need investigation!
+==================================================
+
+✅ Health check complete!

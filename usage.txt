@@ -1,0 +1,14 @@
+# Basic usage (checks eu-west-1 by default)
+python health_checker.py
+
+# Check a specific region
+python health_checker.py --region us-east-1
+
+# Save report to JSON file
+python health_checker.py --output report.json
+
+# Combine options
+python health_checker.py --region eu-central-1 --output health-report.json
+
+# Show help
+python health_checker.py --help
