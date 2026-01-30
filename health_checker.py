@@ -8,7 +8,7 @@ A command-line tool to monitor AWS infrastructure health.
 Checks EC2 instance status and CloudWatch alarms.
 
 Author: Marvelous Olabinjo
-GitHub: https://github.com/yourusername/aws-health-checker
+GitHub: https://github.com/MarvelOlas/aws-health-checker
 """
 
 import boto3
